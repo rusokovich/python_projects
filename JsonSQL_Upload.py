@@ -4,9 +4,8 @@ import pandasql as ps
 
 #Load JSON data
 
-# with open('/Users/fkkarpuk/Desktop/Pandas/Snap/datasnap.json') as file: json_data = pd.DataFrame(json.load(file))
 
-with open('C:\\Users\\usuario\\Downloads\\datasnap.json') as file: json_data = json.load(file)
+with open('C:\path\\data.json') as file: json_data = json.load(file)
 
 #json_data
 #json_data.keys()
